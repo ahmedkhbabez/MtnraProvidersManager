@@ -1,0 +1,9 @@
+﻿namespace MtnraProvidersManager_BAL.Dtos.Interlocutor
+{
+    public class InterlocutorReadDto
+    {
+        public Guid Id { get; set; }
+        public string FirstName { get; set; } = string.Empty;
+        public string LastName { get; set; } = string.Empty;
+    }
+}
